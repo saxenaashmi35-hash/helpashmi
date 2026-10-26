@@ -1,0 +1,9 @@
+ASSIGNMENT 3
+Terminal Navigation Practice Sheet
+COMMANDS	PURPOSE
+pwd     	Shows the full path of your current folder.
+ls      	Lists the files and folders in your current location.
+cd      	Moves into the folder you desire.
+cd..    	Moves back to parent folder.
+mkdir   	Creates a folder.
+clear   	Removes old text from view. It does not delete your files.
