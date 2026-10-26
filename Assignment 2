@@ -1,0 +1,29 @@
+ASSIGNMENT 2
+Setup Proof (VS Code, Node.js, Live Server)
+
+First, lets see what is VS Code, Node.js and Live Server-:
+
+VS Code: it is a code editor for writing codes.
+Node.js: it lets your computer execute JavaScript without needing a browser. It also includes npm, which helps install coding tools and packages.
+Live Server: it is an extension in VS Code that refreshes the browser when you save changes.
+
+Set-up-:
+
+VS Code -
+Open the official website: https://code.visualstudio.com/?utm_source=chatgpt.com
+Download the suitable version for your OS(Operating System).
+Install it.
+
+Node.js -
+1.Open https://nodejs.org/?utm_source=chatgpt.com
+2.Download the LTS version, which is recommended for stable release.
+3.Run the installer and follow the instructions.
+4. Check whether the it is installed properly-
+   I. Open VS Code.
+   II. Open new terminal.
+   III. Type commands-> node -v and npm -v, if it displays version number then the installation is successful.
+
+Live Server-
+Open VS Code.
+Click on extensions and search live server.
+install it.
