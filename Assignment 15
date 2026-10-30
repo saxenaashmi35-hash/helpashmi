@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Personal Blog Portfolio</title>
+</head>
+<body>
+<header>
+<h1>My Personal Blog</h1>
+<p>Welcome to my world of learning and technology!</p>
+<nav aria-label="Main navigation">
+<ul>
+<li><a href="#about">About Me</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#blog">Blog</a></li>
+<li><a href="#contact">Contact Info</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="about">
+<h2>About Me</h2>
+<img src="profile.jpg" alt="My profile photo">
+<p>
+Hello! I am a first-semester BCA student who is passionate about computers, technology, and programming.
+<br>
+I am beginning my journey in the world of web development and software development.
+</p>
+<p>
+I enjoy learning new things, solving problems, and exploring how websites and applications work.
+<br>
+This blog is where I share my learning experiences.
+</p>
+</section>
+<section id="education">
+<h2>My Education</h2>
+<article>
+<h3>Bachelor of Computer Applications (BCA)</h3>
+<p><strong>Semester:</strong> First Semester</p>
+<p><strong>College:</strong> Invertis University</p>
+<p><strong>Interests:</strong> Programming, Web Development, and Computer Applications</p>
+</article>
+</section>
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+<li>HTML Basics</li>
+<li>Computer Fundamentals</li>
+<li>Basic Programming Concepts</li>
+<li>Communication Skills</li>
+<li>Problem Solving</li>
+</ul>
+</section>
+<section id="blog">
+<h2>My Blog Posts</h2>
+<article>
+<header>
+<h3>My First Step into Web Development</h3>
+</header>
+<p>
+Today, I started learning HTML.
+<br>
+ I discovered how headings, paragraphs, links, images, and lists help us create web pages.
+<br>
+ It is exciting to see how simple text file can become a website.
+</p>
+</article>
+<article>
+<header>
+<h3>Why I Chose BCA</h3>
+</header>
+<p>
+I chose BCA because I am interested in computers and technology.
+<br>
+I want to understand programming, develop useful applications, and build a career in the IT industry.
+</p>
+</article>
+<article>
+<header>
+<h3>My Learning Goals</h3>
+</header>
+<p>
+My goal is to learn HTML, CSS, and JavaScript, improve my programming skills, and create my own projects as I progress through my BCA course.
+</p>
+</article>
+</section>
+<section id="hobbies">
+<h2>My Hobbies and Interests</h2>
+<ul>
+<li>Learning about new technology</li>
+<li>Reading blogs and articles</li>
+<li>Listening to music</li>
+<li>Exploring websites</li>
+<li>Learning new computer skills</li>
+</ul>
+</section>
+<section id="contact">
+<h2>Contact Info</h2>
+<p>
+I would love to connect with fellow students and technology enthusiasts.
+</p>
+<address>
+Email:
+<a href="mailto:yourname@example.com"> example@bla.com
+</a>
+</address>
+<p>
+<a href="https://www.linkedin.com/" target="_blank">
+Visit LinkedIn
+</a>
+</p>
+</section>
+</main>
+<footer>
+<p>Created by a BCA First-Semester Student</p>
+</footer>
+</body>
+</html>
