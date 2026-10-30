@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume – Semantic resume</title>
+</head>
+<body>
+  <header>
+    <h1> <center>Ashmi Saxena </center> </h1>
+    <center> <p>BCA(AI) First Year Student</p>
+    <hr>
+    <address>
+      Bareilly, Uttar Pradesh, India<br>
+      <a href="mailto:example.com"> example.com</a> | <a href="tel:+911234567890">+91 1234567890</a>
+    </address> </center>
+    <hr>
+  </header>
+
+  <main>
+    <section id="objective">
+      <h2><u>Objective </u></h2>
+      <p>Motivated student seeking an entry-level <strong>front-end developer</strong> role.</p>
+    </section>
+
+    <section id="education">
+      <h2> <u>Education </u></h2>
+      <article>
+        <h3>Bachelors in Computer Science</h3>
+        <p> (currently enrolled)</p>
+        <p>Invertis University -> <time datetime="2026"> 2026 </time> – <time datetime="2029"> 2029 </time></p>
+      </article>
+      <article>
+        <h3>Class 12 <sup> th</sup></h3>
+        <p>Jingle Bells Public School - 78%</p>
+        <h3>Class 10 <sup>th</sup> </h3>
+        <p> Jingle Bells Public School - 92.8%</p>
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2> <u>Skills </u></h2>
+      <ul>
+        <li>Basic HTML</li>
+        <li>Basic to Intermediate Python</li>
+        <li>Basic to Intermediate Java</li>
+        <li>Basic CSS</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2><u>Projects</u></h2>
+      <article>
+        <h3>To-Do List</h3>
+        <p>Made a to-do list using python language.</p>
+      </article>
+      <article>
+        <h2><u> Strengths</u></h2>
+        <ul>
+  <li>Eagerness to learn</li>
+  <li>Willingness to explore new technologies.</li>
+  <li> Attention to detail</li>
+  <li> Creative thinking</li>
+  <li> Teamwork and adaptability</li>
+</ul>
+
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p><small>I hereby declare that the above information is true.</small></p>
+  </footer>
+</body>
+</html>
