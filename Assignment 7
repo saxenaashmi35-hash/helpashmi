@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+</head>
+<body>
+    <center><h1>Ashmi Saxena </h1></center>
+      <hr>
+      <center><p> Bachelors of Computer Application (Artificial Intelligence) Student | Fresher</p></center>
+      <center><h5> saxenaashmi@gmail.com | 91+ 9087908790 | Uttar Pradesh, India</h5> </center>
+      <hr>
+      <h3>  Objective Statement</h3>
+      <p> Motivated first-semester BCA (Artificial Intelligence) student eager to learn programming, artificial intelligence, and computer science fundamentals. Looking for opportunities to develop technical skills, gain practical experience, and contribute to projects while growing as a technology professional</p>
+      <hr>
+      <h3>  Education</h3>
+      <p>Bachelor of Computer Applications (BCA) - Artificial Intelligence
+Invertis University | 2026 - Present Currently pursuing First Semester</p>
+<p> Class XII - PCB (Physics, Chemistry, Biology)
+Jingle Bells Public School | 78.4%</p>
+<p> Class X
+Jingle Bells Public School | 92.8%</p>
+<hr>
+<h3> <b> Technical Skills</b> </h3>
+<ul>
+  <li> Computer fundamentals</li>
+  <li> Python programming-beginner level</li>
+  <li> HTML and CSS- beginner level</li>
+  <li> Basic problem solving and logical thinking</li>
+</ul>
+<hr>
+<h3> <b> Projects</b></h3>
+<h5>PYTHON TO-DO LIST</h5>
+<ul>
+  <li>Created a basic task management program using Python.</li>
+  <li>Practiced variables, lists, loops, and conditional statements.</li>
+  <li>Explored how programming can be used to organize everyday tasks.</li>
+</ul>
+<hr>
+<h3> <b> Strengths</b></h3>
+<ul>
+  <li>Eagerness to learn</li>
+  <li>Willingness to explore new technologies.</li>
+  <li> Attention to detail</li>
+  <li> Creative thinking</li>
+  <li> Teamwork and adaptability</li>
+</ul>
+<hr>
+<h3> <b> Areas Of Interest</b></h3>
+<p> Artificial Intelligence, Programming, Web Development, and Technology</p>
+<hr>
+  </body>
+</html>
