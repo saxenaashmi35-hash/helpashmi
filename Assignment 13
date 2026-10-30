@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course</title>
+</head>
+<body>
+<header>
+    <section class="intro">
+      <h2> XYZ University</h2>
+      <hr>
+      <h3>  <u>  About University</u></h3>
+      <ul>
+        <li> Location: near AB national highway </li>
+        <li> Affliated to: PQRS</li>
+        <li> Facilities:-</li>
+        <ul> <li> Computer Labs</li>
+        <li> Sports </li>
+        <li> Ground</li>
+        <li> Biotech lab</li>
+        <li> Moot court</li>
+        </ul>
+      </ul>
+    </section>
+    </header>
+    <section>
+      <h3><u>Course: Bachelors Of Computer Science </u></h3>
+      <h4>Semester Roadmap</h4>
+      <ol>
+        <li>Semester 1 - Maths, Java, HTML, CSS</li>
+        <li>Semester 2 - Data Structures</li>
+        <li>Semester 3 - OOP, DBMS</li>
+        <li>Semester 4 - Operating Systems, Computer Networks</li>
+      </ol>
+      </section>
+      <section>
+      <h3> <u> Why I chose this course </u>  </h3>
+      <ul>
+        <li>Passion for problem solving</li>
+        <li>Great career opportunities</li>
+        <li>Ability to build products used by many people</li>
+      </ul>
+    </section>
+</body>
+</html>
