@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ University - Course Information</title>
+</head>
+<body>
+
+    <header>
+        <h1>XYZ University</h1>
+        <p>About Our University</p>
+    </header>
+
+    <main>
+        <section aria-labelledby="about-heading">
+            <h2 id="about-heading">About University</h2>
+
+            <ul>
+                <li>Location: Near AB National Highway</li>
+                <li>Affiliated to: PQRS</li>
+                <li>Facilities:
+                    <ul>
+                        <li>Computer Labs</li>
+                        <li>Sports</li>
+                        <li>Ground</li>
+                        <li>Biotech Lab</li>
+                        <li>Moot Court</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <article>
+            <header>
+                <h2>Bachelor of Computer Science</h2>
+                <p>Course Information</p>
+            </header>
+
+            <section aria-labelledby="roadmap-heading">
+                <h3 id="roadmap-heading">Semester Roadmap</h3>
+
+                <ol>
+                    <li>Semester 1 - Maths, Java, HTML, CSS</li>
+                    <li>Semester 2 - Data Structures</li>
+                    <li>Semester 3 - OOP, DBMS</li>
+                    <li>Semester 4 - Operating Systems, Computer Networks</li>
+                </ol>
+            </section>
+
+            <section aria-labelledby="reasons-heading">
+                <h3 id="reasons-heading">Why I Chose This Course</h3>
+
+                <ul>
+                    <li>Passion for problem solving</li>
+                    <li>Great career opportunities</li>
+                    <li>Ability to build products used by many people</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; XYZ University</p>
+    </footer>
+
+</body>
+</html>
