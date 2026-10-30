@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Navigation</title>
+</head>
+<body>
+  <section class="links">
+    <div class="name">
+      <center> <h1> Ashmi Saxena</h1></center>
+      <hr>
+
+    </div>
+    <div class="about">
+      <ul>
+       <li><a href="#profile"> Profile </a> </li>
+      <li><a href="#skills"> Skills</a> </li>
+      <li>  <a href="#project"> Projects </a> </li>
+      </ul>
+    </div>
+  </section>
+   <div class="profile">
+    <h2> <u> Profile</u></h2>
+    <ul>
+      <li>  Age:  18</li>
+      <li>  Nationality:   Indian</li>
+      <li>  Languages: Hindi, English</li>
+    </ul>
+   </div>
+   <div class="skills">
+    <h2> <u> Skills</u></h2>
+    <ul>
+      <li> Basic to Intermediate Python</li>
+      <li> Basic Java</li>
+      <li> Basic HTML</li>
+      <li> Basic CSS</li>
+    </ul>
+   </div>
+   <div class ="project">
+    <h2> <u> Projects</u></h2>
+    <h4> To-Do List: Python language</h4>
+    <ul>
+      <li> Made a To-Do list using Python language.</li>
+      <li> You can check out the tasks of the day.</li>
+      <li> Edit the list of task- addition/deletion of task</li>
+      <li> Make a list for tomorrow</li>
+    </ul>
+   </div>
+   <footer>
+    <div class="foot">
+      <small> <a href="mailto:example.com"> example.com </a>
+      <br>
+      <a href="tel:1234567890"> 91+ 1234567890</a></small>
+    </div>
+   </footer>
+</body>
+</html>
