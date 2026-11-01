@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fixing Overflow Problems</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            margin: 10px;
+            padding: 10px;
+        }
+        .wrapper {
+            max-width: 700px;
+            margin: auto;
+        }
+        .column {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid blue;
+            margin-bottom: 15px;
+            background-color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .long-text {
+            overflow-wrap: anywhere;
+        }
+        .table-scroll {
+            overflow-x: auto;
+        }
+        .fixed-box {
+            height: 90px;
+            overflow-y: auto;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        pre {
+            overflow-x: auto;
+            background-color: lightgray;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <h1>Fixing Overflow Problems</h1>
+        <div class="column">
+            <h2>Image</h2>
+            <img src="https://picsum.photos/id/1011/1000/400"
+                 alt="Lake Image">
+        </div>
+        <div class="column long-text">
+            <h2>Long Text</h2>
+            <p>
+                https://www.example.com/this/is/a/very/long/url/that/can/cause/overflow
+            </p>
+        </div>
+        <div class="column">
+            <h2>Wide Table</h2>
+
+            <div class="table-scroll">
+                <table border="1" cellpadding="6">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>City</th>
+                        <th>Course</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Ashmi</td>
+                        <td>blabla@example.com</td>
+                        <td>Bareilly</td>
+                        <td>BCA</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="column">
+            <h2>Fixed Height Box</h2>
+
+            <div class="fixed-box">
+                This is an example of
+                overflow content. When the text becomes
+                too long, a scrollbar appears.
+            </div>
+        </div>
+        <div class="column">
+            <h2>Code Block</h2>
+
+        </div>
+
+</body>
+</html>
