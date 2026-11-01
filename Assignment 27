@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile Card</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px gray;
+        }
+
+        .card h2 {
+            color: blue;
+        }
+
+        .card p {
+            color: gray;
+        }
+
+        .card button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h2>My Profile Card</h2>
+
+        <h3>Student Name</h3>
+
+        <p>BCA First Semester</p>
+
+        <p>
+            Hello! I am a BCA student.
+            I am learning HTML and CSS.
+        </p>
+
+        <button>Learn More</button>
+    </div>
+
+</body>
+</html>
