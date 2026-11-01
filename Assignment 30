@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Card and Product Card</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial;
+            text-align: center;
+            padding: 20px;
+        }
+        .profile {
+            width: 300px;
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+ 
+        }
+
+        .cover {
+            height: 80px;
+            background-color: blue;
+        }
+
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-top: -40px;
+        }
+
+        .profile h2 {
+            color: blue;
+        }
+
+        .profile p {
+            color: gray;
+        }
+        .btn {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .product {
+            width: 300px;
+            background-color: white;
+            margin: 20px auto;
+            padding: 15px;
+            border-radius: 15px;
+ 
+        }
+
+        .product img {
+            width: 100%;
+            height: 180px;
+        }
+
+        .product h2 {
+            color: black;
+        }
+
+        .rating {
+            color: orange;
+        }
+
+        .price {
+            font-size: 20px;
+            color: green;
+        }
+
+        .old-price {
+            color: gray;
+            text-decoration: line-through;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="profile">
+
+        <div class="cover"></div>
+
+        <img src="https://lalala.photos/id/1005/200/200">
+
+        <h2> abc xyz</h2>
+
+        <p>Front-End Developer - Meerut</p>
+
+        <p>Projects: 45</p>
+        <p>Followers: 1200</p>
+        <p>Commits: 320</p>
+
+        <a href="#" class="btn">Follow</a>
+
+    </div>
+    <div class="product">
+
+        <h3>30% OFF</h3>
+
+        <img src="https://picsum.photos/id/21/600/400">
+
+        <h2>Wireless Headphones</h2>
+
+        <p class="rating">★★★★☆ (214 Reviews)</p>
+
+        <p class="price">
+            ₹2,799
+            <span class="old-price">₹3,999</span>
+        </p>
+
+        <a href="#" class="btn">Add to Cart</a>
+
+    </div>
+
+</body>
+</html>
