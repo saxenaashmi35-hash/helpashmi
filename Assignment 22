@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+      * {
+            font-family: Arial, sans-serif;
+        }
+        p {
+            color: blue;
+        }
+        #heading {
+            color: darkgreen;
+        }
+        .highlight {
+            background-color: lightyellow;
+        }
+        h2, h3 {
+            color: brown;
+        }
+        div > h3 {
+            background-color: lightblue;
+        }
+        /* 10. Attribute Selector */
+        input[type="text"] {
+            border: 2px solid green;
+        }
+
+        /* 11. Pseudo-class Selector */
+        a:hover {
+            color: red;
+        }
+
+        /* 12. Pseudo-element Selector */
+        p::first-letter {
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="heading">CSS Selectors Demonstration</h1>
+
+    <h2>Element and Grouping Selectors</h2>
+    <p>This paragraph demonstrates CSS selectors.</p>
+
+    <h3>Class Selector Example</h3>
+    <p class="highlight">This paragraph has a highlighted background.</p>
+
+    <div>
+        <h3>Child Selector Example</h3>
+        <p>This paragraph is inside a div.</p>
+        <section>
+            <p>This paragraph is inside a nested section.</p>
+        </section>
+    </div>
+
+        <h2>Attribute Selector</h2>
+    <input type="text" placeholder="Enter your name">
+
+    <h2>Pseudo-class Selector</h2>
+    <a href="#heading">Move to the top</a>
+
+</body>
+</html>
