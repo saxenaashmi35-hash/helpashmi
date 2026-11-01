@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f6fa;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  max-width: 1200px;
+  margin: 1.5rem auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h2 {
+  font-size: 1.05rem;
+  margin: .75rem 0 .25rem;
+}
+
+.price {
+  color: #0a8754;
+  font-weight: 700;
+}
+
+.note {
+  text-align: center;
+  color: #666;
+}
